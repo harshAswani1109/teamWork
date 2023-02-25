@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBEBC9;
+}
+
+.container{
+    background-color: whitesmoke;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 15px;
+}
+
+.container header{
+    font-size: 20px;
+    position: relative;
+    font-weight: 650;
+    color: black;
+}
+
+.container form{
+    position: relative;
+    min-height: 500px;
+    margin-top: 15px;
+    background-color: rgba(231, 230, 230, 0.584);
+}
+
+.container form .personal-details{
+    margin-top: 10px;
+}
+
+.container form .heading{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 7px 0;
+    color: #333;
+}
+
+.container form .field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.field{
+    padding-top: 12px;
+}
+
+form .field .input-fields{
+    display: flex;
+    flex-direction: column;
+    width: 35px;
+}
+
+form .field .input-fields .input{
+    height: 45px;
+}
+
+.input-fields .lable{
+    font-size: 12px;
+    font-weight: 500;
+}
