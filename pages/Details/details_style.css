@@ -85,7 +85,10 @@ form .input-box span.details{
  }
  form .button{
    height: 45px;
-   margin: 35px 0
+   margin: 35px 0;
+   border-color: grey;
+   box-shadow: 10px 10px 10px #8d8d8d;
+   text-shadow:5px 5px 5px #8d8d8d;
  }
  form .button button{
    height: 100%;
