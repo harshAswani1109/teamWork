@@ -1,95 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="details_style.css">
-    <title>Details</title>
-</head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <div class="container">
-        <header>Detail</header>
-        <form action="#">
-            <div class="first-form">
-                <div class="personal-details">
-                    <span class="heading">Personal Details</span>
-
-                    <div class="field">
-                        <div class="input-field">
-                            <label for="Username">Full Name</label>
-                            <input type="text" placeholder="Enter your Name" required style="
-                            display: flex; 
-                            width: 30vh;
-                            height: 45px;">
-                        </div>
-                        <div class="input-field">
-                            <label for="Birthdate">Date of Birth</label>
-                            <input type="date" placeholder="Enter birth date" required style="
-                            display: flex; 
-                            width: 30vh;
-                            height: 45px;">
-                        </div>
-                        <div class="input-field">
-                            <label for="Email">Email</label>
-                            <input type="text" placeholder="Enter your Email" required style="
-                            display: flex; 
-                            width: 30vh;
-                            height: 45px;">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <div class="input-field">
-                            <label for="college-name">University/Institution</label>
-                            <input type="text" placeholder="Enter the University or Institute" required style="
-                            display: flex; 
-                            width: 30vh;
-                            height: 45px;">
-                        </div>
-                        <div class="input-field">
-                            <label for="Year-of-Graduation">Year of Graduation</label>
-                            <select style="display: flex; width: 30vh; height: 45px;">
-                                <option selected disabled>Select Year</option>
-                                <option>2021</option>
-                                <option>2022</option>
-                                <option>2023</option>
-                                <option>2024</option>
-                                <option>2025</option>
-                                <option>2026</option>
-                                <option>2027</option>
-                                <option>2028</option>
-                                <option>2029</option>
-                                <option>2030</option>
-
-                            </select>
-                        </div>
-                        <div class="input-field">
-                            <label for="Course">Course</label>
-                            <!-- <input type="text" placeholder="Enter your Email" required style="
-                            display: flex; 
-                            width: 30vh;
-                            height: 45px;"> -->
-
-                            <select style="display: flex; width: 30vh; height: 45px;">
-                                <option selected disabled>Select Cource</option>
-                                <option>Bachlor of Technology(B.Tech)</option>
-                                <option>Bachlor of Engineering(BE)</option>
-                                <option>Bachlor of Arts(BA)</option>
-                                <option>Bachlor of Science(B.Sc)</option>
-                                <option>Bachlor of Buisness Administration(BBA)</option>
-                                <option>Bachlor of Buisness Management(BBM)</option>
-                                <option>Bachlor of Medicine,Bachlor of Surgery(MBBS)</option>
-                                <option>Bachlor of Commerce(B.Com)</option>
-                                <option>Bachlor of Design(B.Des)</option>
-                                <option>Bachlor of Management Stuies(BMS)</option>
-                                <option>Bachlor of Hospital Management(BHM)</option>
-                            </select>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </form>        
+  <div class="container">
+    <div class="title">Details</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" required name="Full Name">
+          </div>
+          <div class="input-box">
+            <span class="details">Desgination</span>
+            <input type="text" placeholder="Enter your Desgination" required desgination="Desgination">
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required email="Email">
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your number" required number="Phone Number">
+          </div>
+          <div class="input-box">
+            <span class="details">Image URL</span>
+            <input type="text" placeholder="Enter your URL" required img="Image URL">
+          </div>
+          <div class="input-box">
+            <span class="details">Instagram</span>
+            <input type="text" placeholder="Instagram profile link" required insta="Instagram">
+          </div>
+          <div class="input-box">
+            <span class="details">Git-Hub</span>
+            <input type="text" placeholder="Git-Hub profile link" required github="Git-Hub">
+          </div>
+          <div class="input-box">
+            <span class="details">Linkedin</span>
+            <input type="text" placeholder="Linkedin profile link" required linkedin="Linkedin">
+          </div>
+          <div class="input-box">
+            <span class="details">About</span>
+            <textarea id="details" rows="3" cols="94" required about="About"></textarea>
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
     </div>
+  </div>
 </body>
 </html>
